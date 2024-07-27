@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Photographie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .navbar {
+            background-color: #001f3f; /* Navy blue */
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: white;
+            font-weight: bold;
+        }
+        .navbar-brand:hover, .navbar-nav .nav-link:hover {
+            color: #ddd;
+        }
+        .footer {
+            background-color: #001f3f;
+            color: white;
+            padding: 20px 0;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer a {
+            color: white;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #ddd;
+        }
+        .fa-facebook {
+            color: #3b5998; /* Facebook blue */
+        }
+        .fa-instagram {
+            color: #e4405f; /* Instagram gradient */
+        }
+        .fa-whatsapp {
+            color: #25D366; /* WhatsApp green */
+        }
+        .fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Stone Photographie</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#a-propos">À Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galerie">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100088646289718&mibextid=LQQJ4d" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/socrate_stone?igsh=MTVxZnBvNG9zdTVyMA%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/+22969215861" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <!-- Accueil Section -->
+    <section id="accueil" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Content -->
+                <div class="col-md-6">
+                    <div class="content p-4 bg-white border rounded">
+                        <h1 class="mb-4">Bienvenue sur Stone Photographie</h1>
+                        <p>
+                            Découvrez notre passion pour la photographie à travers nos réalisations. Nous capturons des moments uniques et précieux pour les transformer en souvenirs inoubliables. Explorez notre galerie et découvrez les services que nous proposons.
+                        </p>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="./Asset/modifié accueil.JPG" alt="Photographie" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A Propos Section -->
+    <section id="a-propos" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content p-4 bg-dark text-white">
+                        <h1 class="mb-4">À Propos de Nous</h1>
+                        <p>
+                            Stone Photographie est dédiée à capturer les moments les plus précieux de votre vie avec une passion inégalée pour l'art de la photographie. SP se consacre à fournir des images de haute qualité qui racontent une histoire unique. Que ce soit pour des événements spéciaux, des portraits ou des projets créatifs, nous mettons tout en œuvre pour dépasser vos attentes.
+                        </p>
+                        <a href="https://wa.me/+22969215861" class="btn btn-light mt-3" target="_blank">Réservez une séance de photo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section id="galerie" class="py-5 bg-white">
+        <div class="container">
+            <h1 class="mb-4 text-center">Galerie</h1>
+            <div class="row">
+                <!-- Photo 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_4059.JPG" alt="Photo 1" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_2043.JPG" alt="Photo 2" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_2042.JPG" alt="Photo 3" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_2041.JPG" alt="Photo 4" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_0976.JPG" alt="Photo 5" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/IMG_0975.JPG" alt="Photo 6" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/2.jpg" alt="Photo 7" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/1.jpg" alt="Photo 8" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <!-- Photo 9 -->
+                <div class="col-md-4 mb-4">
+                    <div class="photo">
+                        <img src="./Asset/photo d'accueil.JPG" alt="Photo 9" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Styles for Galerie Section -->
+    <style>
+        .photo {
+            overflow: hidden;
+            border-radius: 15px;
+            border: 1px solid #1004ed;
+            transition: transform 0.9s ease, box-shadow 0.3s ease;
+        }
+
+        .photo:hover {
+            transform: scale(1.10);
+            box-shadow: 0 4px 8px rgba(6, 17, 234, 0.2);
+        }
+
+        .shadow {
+            box-shadow: 0 4px 6px rgba(16, 4, 241, 0.2);
+        }
+    </style>
+
+    <!-- Services Section -->
+<section id="services" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h1 class="mb-4 text-center">Nos Services</h1>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-camera fa-3x mb-3"></i>
+                    <h3 class="mb-3">Portraits</h3>
+                    <p>
+                        Capturez des moments uniques avec nos séances de portrait personnalisées. Idéal pour les familles, les couples, et les individus.
+                    </p>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-calendar fa-3x mb-3"></i>
+                    <h3 class="mb-3">Événements</h3>
+                    <p>
+                        Nous immortaliserons vos événements spéciaux tels que les mariages, anniversaires et autres célébrations avec une touche professionnelle.
+                    </p>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-briefcase fa-3x mb-3"></i>
+                    <h3 class="mb-3">Photographie Commerciale</h3>
+                    <p>
+                        Des photos professionnelles pour vos besoins commerciaux, y compris les photos de produits, les portraits d'entreprise et plus encore.
+                    </p>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-home fa-3x mb-3"></i>
+                    <h3 class="mb-3">Formations en Photographie</h3>
+                    <p>
+                        Apprenez les bases et les techniques avancées de la photographie avec nos formations adaptées à tous les niveaux. Nos cours couvrent tout, de l'utilisation de votre appareil photo à la composition et l'édition des images.
+                    </p>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-birthday-cake fa-3x mb-3"></i>
+                    <h3 class="mb-3">Photographie d'Événements Privés</h3>
+                    <p>
+                        Capturez les moments mémorables de vos événements privés tels que les anniversaires, les fêtes et autres rassemblements.
+                    </p>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-image fa-3x mb-3"></i>
+                    <h3 class="mb-3">Tableaux Personnalisés</h3>
+                    <p>
+                        Transformez vos photos préférées en magnifiques tableaux personnalisés. Que ce soit pour décorer votre maison ou offrir un cadeau unique, nos tableaux ajoutent une touche artistique à vos souvenirs les plus précieux.
+                    </p>
+                </div>
+            </div>
+
+             <!-- Service 6 -->
+             <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-image fa-3x mb-3"></i>
+                    <h3 class="mb-3">Photo Studio</h3>
+                    <p>
+                        Profitez de notre studio professionnel équipé pour réaliser des séances photo de haute qualité. Que ce soit pour des portraits, des photos de famille ou des séances de mode, notre studio offre un cadre parfait pour capturer des moments inoubliables.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-image fa-3x mb-3"></i>
+                    <h3 class="mb-3">Shooting de Mode</h3>
+                    <p>
+                        Mettez en valeur votre style et votre personnalité avec nos séances photo de mode. Que vous soyez un modèle professionnel ou que vous souhaitiez simplement expérimenter, nos shootings de mode sont conçus pour révéler le meilleur de vous-même.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="service p-4 bg-light rounded text-center shadow">
+                    <i class="fa fa-image fa-3x mb-3"></i>
+                    <h3 class="mb-3">Séances Photo Maternité et Nouveau-né</h3>
+                    <p>
+                        Capturez la magie de la maternité et les premiers jours de votre nouveau-né avec des séances photo spécialement conçues pour ces moments précieux. Nous offrons une atmosphère confortable et sécurisée pour vous et votre bébé.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .service {
+        background-color: #f8f9fa; /* Gray background for each service */
+        color: #000; /* Black text color */
+        border: 1px solid #ddd; /* Light border for better separation */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    
+</style>
+
+    <!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h1 class="mb-5 text-center">Contactez-Nous</h1>
+        <div class="row justify-content-center">
+            <!-- Contact Information -->
+            <div class="col-md-8 col-lg-6">
+                <div class="contact-info p-4 bg-white rounded shadow-sm text-center">
+                    <h2 class="mb-4">Nous Serions Ravies de Vous Entendre</h2>
+                    <p class="mb-4">
+                        Pour toute question ou pour discuter de vos projets, vous pouvez nous contacter directement par email ou via WhatsApp. Nous nous ferons un plaisir de vous répondre dans les plus brefs délais.
+                    </p>
+                    
+                    <a href="mailto:socratetchobo@gmail.com" class="btn btn-primary btn-lg mb-3" target="_blank">Me Contacter par Email</a>
+
+
+                    <br>
+
+                    <a href="https://wa.me/+22969215861" class="btn btn-success btn-lg" target="_blank">Me Contacter par WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .contact-info {
+        background-color: #ffffff; /* White background for the contact info */
+        color: #333333; /* Dark text color for readability */
+        border: 1px solid #dddddd; /* Light border for separation */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+
+    .contact-info:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-primary {
+        background-color: #001f3f; /* Navy blue background */
+        border-color: #001f3f; /* Matching border color */
+        color: #ffffff; /* White text */
+    }
+
+    .btn-primary:hover {
+        background-color: #001c3f; /* Darker navy blue on hover */
+        border-color: #001c3f; /* Matching border color */
+    }
+
+    .btn-success {
+        background-color: #25D366; /* WhatsApp green background */
+        border-color: #25D366; /* Matching border color */
+        color: #ffffff; /* White text */
+    }
+
+    .btn-success:hover {
+        background-color: #1ebc57; /* Darker green on hover */
+        border-color: #1ebc57; /* Matching border color */
+    }
+
+    .text-center {
+        text-align: center; /* Center the text */
+    }
+</style>
+<br><br><br><br> <br><br>
+
+<div class="container text-center">
+    <video width="320" height="240" controls autoplay muted>
+        <source src="./Asset/video .mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo HTML5.
+    </video>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Suivez-nous sur les réseaux sociaux</p>
+                    <a href="https://www.facebook.com/profile.php?id=100088646289718&mibextid=LQQJ4d" target="_blank" class="mr-2"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/socrate_stone?igsh=MTVxZnBvNG9zdTVyMA%3D%3D&utm_source=qr" target="_blank" class="mr-2"><i class="fa fa-instagram"></i></a>
+                    <a href="https://wa.me/+22969215861" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Footer -->
+<footer>
+    <div class="marquee">
+        <p><strong>Voulez-vous une page pour votre domaine ou un Portfolio? Contactez Rénato TCHOBO au +229 69 024 349 ou appuyez sur le bouton vert et vous nous joignez directement <a href="https://wa.me/22969024349"  class="contact-button" target="_blank"><i class="fa fa-whatsapp"></i> +22969024349</a></strong></p>
+    </div>
+</footer>
+
+<style>
+    footer {
+        background-color: #001f3f;
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .marquee {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #001f3f;
+        color: white;
+        padding: 10px 0;
+    }
+
+    .marquee p {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 20s linear infinite;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optionnel : ombre portée pour améliorer la lisibilité */
+        font-size: 20px;
+        line-height:15px;
+        text-shadow: #ddd;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .contact-button {
+        background-color: #25d366; /* Couleur verte de WhatsApp */
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+
+    .contact-button i {
+        margin-right: 5px;
+    }
+</style>
+
+</body>
+</html>
